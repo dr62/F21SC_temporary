@@ -1,0 +1,9 @@
+stages:
+  - Test
+
+test:
+  stage: Test
+  script:
+  - cd Template3
+  - make all
+  - sh ./test.sh
